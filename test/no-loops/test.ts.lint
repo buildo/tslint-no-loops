@@ -1,0 +1,19 @@
+while(true) {}
+~~~~~~~~~~~~~~ [failure]
+
+[failure]: loops are forbidden
+
+for(let x = 1; x < 42; x++) {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ [failure]
+
+[failure]: loops are forbidden
+
+for(variable in object) {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~ [failure]
+
+[failure]: loops are forbidden
+
+for(key of object) {}
+~~~~~~~~~~~~~~~~~~~~~ [failure]
+
+[failure]: loops are forbidden

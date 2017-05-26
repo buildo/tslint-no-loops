@@ -1,0 +1,17 @@
+{
+  "name": "tslint-no-loops",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "buildo",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^7.0.22",
+    "tslint": "^5.3.2",
+    "typescript": "^2.3.3"
+  },
+  "scripts": {
+    "build": "rm -rf rules && tsc -p tsconfig.json",
+    "test": "yarn build && yarn test:rules",
+    "test:rules": "./test-rules.sh"
+  }
+}
