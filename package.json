@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "buildo",
   "license": "MIT",
+  "files": [
+    "rules",
+    "tslint-no-loops.json"
+  ],
   "devDependencies": {
     "@types/node": "^7.0.22",
     "tslint": "^5.3.2",
