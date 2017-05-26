@@ -17,7 +17,7 @@ yarn add --dev tslint-no-loops
 # or npm install --save-dev tslint-no-loops
 ```
 
-Edit your `tslint.json`
+Edit your `tslint.json`:
 
 ```diff
 {
@@ -29,4 +29,5 @@ Edit your `tslint.json`
     "some-other-rule": true,
 +   "no-loops": true 
   }
+}
 ```
