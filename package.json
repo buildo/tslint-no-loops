@@ -1,7 +1,7 @@
 {
   "name": "tslint-no-loops",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "tslint-no-loops.json",
   "author": "buildo",
   "license": "MIT",
   "files": [
